@@ -101,7 +101,7 @@ export class DcConfigurator {
       const suffix = getTelegramConnectionSuffix(connectionType);
       const subdomain = this.sslSubdomains[dcId - 1] + suffix;
       const path = Modes.test ? 'apiw_test1' : 'apiw1';
-      chosenServer = 'https://webogram-bpi.vercel.app/' + subdomain + '/' + path;
+      chosenServer = 'https://tweb-api.666986.xyz/' + subdomain + '/' + path;
     } else {
       for(const dcOption of this.dcOptions) {
         if(dcOption.id === dcId) {
